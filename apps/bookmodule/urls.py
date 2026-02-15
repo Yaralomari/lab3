@@ -6,5 +6,5 @@ urlpatterns = [
     path('index2/<val1>/', views.index2, name='book_index2'),
 
     # Task 7
-    path('<int:bookId>', views.viewbook),
+    path('<int:bookId>/', views.viewbook, name='view_book'),
 ]
